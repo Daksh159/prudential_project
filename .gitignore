@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+*.db
+*.sqlite3
+
+# Env files — never commit secrets
+backend/.env
+admin-portal/.env
+consumer-app/.env
+
+# Node
+node_modules/
+dist/
+.cache/
+
+# Build output
+admin-portal/dist/
+consumer-app/dist/
+sdk/dist/
+
+# OS
+.DS_Store
+Thumbs.db
